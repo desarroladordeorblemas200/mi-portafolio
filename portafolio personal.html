@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+    <style>
+        <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    a {
+        color: #ffcc00;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 10px;
+        transition: color 0.3s ease, transform 0.2s ease;
+    }
+
+    a:hover {
+        color: #ffd700;
+        transform: scale(1.1);
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    ul li {
+        font-size: 1.2rem;
+        margin: 5px 0;
+    }
+
+    iframe {
+        display: block;
+        margin: 20px auto;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        width: 80%;
+        max-width: 600px;
+        height: 300px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        max-width: 400px;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.8);
+        color: #333;
+        font-size: 1rem;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background: #ffcc00;
+        color: #333;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    button:hover {
+        background: #ffd700;
+        transform: scale(1.05);
+    }
+
+    div {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+</style>
+
+
+    <h1>¡Hola! Soy Felipe</h1>
+    <div>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+    </div>
+    <div>
+        <h2>Sobre mí</h2>
+        <p>Me gusta aprender cosas nuevas y me encanta la tecnología.</p>
+        <h3>Habilidades e intereses</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+        <h3>Proyectos destacados</h3>
+        <iframe src="./juego-gato2/gato2.html"></iframe>
+        <p>Un juego de gato creado con HTML, CSS y JavaScript.</p>
+        <iframe src="./inv.espaciales2.html" frameborder="0"></iframe>
+        <h1>Se hacer videojuegos con javascript</h1>
+        <p>Una calculadora simple creada con Python y ejecutada en consola.</p>
+        <h1>Contáctame</h1>
+        <div>
+            <label for="nombre">Tu nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+        </div>
+        <div>
+            <label for="email">Tu correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu correo">
+        </div>  
+        <div>
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </div>
+</body>
+</html>
